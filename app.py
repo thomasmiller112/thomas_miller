@@ -7,7 +7,7 @@ def analyze_job_description(job_description):
         "job_description": job_description
     }
     
-    res = requests.post("https://hook.us1.make.com/u1fejh810y0txuw4wkwwnjx2lpk4ig7v", json=body)
+    res = requests.post("https://hook.us2.make.com/q5vm6rimwf179we2sibf15p4whqlhho1", json=body)
     return res.text
 
 if 'run_button' in st.session_state and st.session_state.run_button == True:
